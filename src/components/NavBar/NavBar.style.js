@@ -85,7 +85,9 @@ export const DropdownContainer = styled.div`
   right: 0;
   display: none;
   background-color: ${({ isOpaque }) =>
-    isOpaque ? BEIGE : "rgba(255, 255, 255, 0.5)"};
+    isOpaque ? BEIGE : "rgba(255, 255, 255)"};
+  border: 1px solid rgba(128, 128, 128, 0.5); // Bordură gri deschisă
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); // Umbră subtilă
   border-bottom-left-radius: 10px;
   padding: 10px 0px;
   transition: background-color 1s ease;
