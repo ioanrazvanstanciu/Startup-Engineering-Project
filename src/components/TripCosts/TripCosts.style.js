@@ -5,13 +5,18 @@ export const PageContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px;
+  padding: 50px;
   background-color: #f4f6f9;
   font-family: "Arial", sans-serif;
+  margin-top: 80px;
+
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
 `;
 
 export const Title = styled.h1`
-  font-size: 2.5rem;
+  font-size: 2rem; // Redus pentru a se potrivi pe ecrane mai mici
   color: #333;
   margin-bottom: 20px;
 `;
@@ -24,7 +29,8 @@ export const InputsContainer = styled.div`
 `;
 
 export const Input = styled.input`
-  width: 300px;
+  width: 90%; // Lățime procentuală pentru adaptabilitate
+  max-width: 500px; // Limita maximă pentru ecrane mai mari
   padding: 10px;
   margin: 10px 0;
   font-size: 1rem;
@@ -57,11 +63,13 @@ export const ImagesContainer = styled.div`
   justify-content: center;
   gap: 20px;
   margin-bottom: 30px;
+  flex-wrap: wrap; // Wrap images on smaller screens
 `;
 
 export const Image = styled.img`
-  width: 400px;
-  height: 300px;
+  width: 100%; // Ajustează la 100% în containerul său
+  max-width: 400px; // Limita maximă pentru a evita supradimensionarea
+  height: auto; // Păstrează proporțiile imaginii
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 `;
