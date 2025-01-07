@@ -11,6 +11,7 @@ import EditDeleteCompleteForm from "./components/EditDeleteCompleteForm/EditDele
 import Reserved from "./components/Reserved/Reserved";
 import ReservedPage from "./components/ReservedPage/ReservedPage";
 import CustomAddUser from "./components/CustomAddUser/CustomAddUser";
+import {TripCosts} from "./components/TripCosts/TripCosts.jsx";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="reserved-packages" element={<Reserved />} />
         <Route path="/package-reserved/:id" element={<ReservedPage />} />
         <Route path="/add-custom-package" element={<CustomAddUser />} />
+         <Route path="/trip-costs" element={<TripCosts />} />
         <Route
           path="/edit-or-delete/package/:id"
           element={<EditDeleteCompleteForm />}
