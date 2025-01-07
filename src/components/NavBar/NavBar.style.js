@@ -79,7 +79,7 @@ export const DropdownContainer = styled.div`
   display: flex;
   flex-direction: row;
   width: 350px;
-  height: 250px;
+  height: 300px;
   position: absolute;
   top: 80px;
   right: 0;
