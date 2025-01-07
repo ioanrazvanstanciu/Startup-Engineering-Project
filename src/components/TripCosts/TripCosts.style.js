@@ -1,40 +1,40 @@
 import styled from "styled-components";
 
 export const PageContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 100px;
-    background-color: #f4f6f9;
-    font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  background-color: #f4f6f9;
+  font-family: "Arial", sans-serif;
 `;
 
 export const Title = styled.h1`
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
 `;
 
 export const InputsContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
 `;
 
 export const Input = styled.input`
-    width: 300px;
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 
-    &:focus {
-        outline: none;
-        border-color: #007bff;
-    }
+  &:focus {
+    outline: none;
+    border-color: #007bff;
+  }
 `;
 
 export const Button = styled.button`
