@@ -6,7 +6,7 @@ function Footer() {
       <FooterText>
         Discover the world with Journey Gem – your adventure starts here!
       </FooterText>
-      <FooterCopyright>© 2024 Copyright: JourneyGem</FooterCopyright>
+      <FooterCopyright>© 2025 Copyright: JourneyGem</FooterCopyright>
     </FooterContainer>
   );
 }
